@@ -1,4 +1,4 @@
-const backendDomin = "https://e-commerce-backend-pp3e.onrender.com"
+const backendDomin = process.env.REACT_APP_BACKEND_URI;
 
 const SummaryApi = {
     signUP : {
